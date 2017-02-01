@@ -43,6 +43,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(bordgundGavel).title("Marker in BordgundGavel"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bordgundGavel,17.0f));
 
+
 //         Test
     }
 }
