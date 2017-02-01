@@ -40,16 +40,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-<<<<<<< HEAD
-        LatLng bordgundGavel = new LatLng(62.467178,  6.238474);
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bordgundGavel,17.5f));
-=======
+
+
         LatLng bordgundGavel = new LatLng(62.467178, 6.238474);
-        mMap.addMarker(new MarkerOptions().position(bordgundGavel).title("Marker in BordgundGavel"));
+        
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bordgundGavel,17.0f));
 
->>>>>>> refs/remotes/origin/master
+
 
         mMap.setOnMapLongClickListener(new GoogleMap.OnMapLongClickListener() {
         @Override
